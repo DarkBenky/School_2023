@@ -1,0 +1,7 @@
+table{
+    border: 1px solid rgb(0, 20, 10);
+}
+
+table:hover{
+    background-color: yellow;
+}

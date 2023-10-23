@@ -1,0 +1,63 @@
+.text{
+    color: #000;
+    background-color: rgb(177, 168, 158);
+    border-radius: 5%;
+}
+
+.text:hover{
+    color: #fff;
+    background-color: #000;
+    transition: all 0.5s;
+}
+
+.img {
+    width: 300px;
+    border-radius: 25%;
+}
+
+.underline-animation {
+    position: relative;
+    text-decoration: none;
+}
+
+.underline-animation::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #421a83;
+    /* Choose your desired color */
+    transition: width 0.3s;
+    /* Adjust the duration for the animation */
+}
+
+.underline-animation:hover::after {
+    width: 100vh;
+}
+
+.btn {
+    border-radius: 25%;
+    background-color: slategray;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #a1a1a1;
+    color: #000;
+    transition: color 0.25s;
+    transition: background-color 0.5s;
+}
+
+.bg-dark {
+
+    border-radius: 5%;
+    background-color: rgb(101, 112, 112);
+}
+
+
+.bg-light {
+    border-radius: 5%;
+    background-color: dimgray;
+}
